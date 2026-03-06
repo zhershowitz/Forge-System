@@ -2,8 +2,12 @@
     "name": "forge",
     "title": "Forge System",
     "description": "A homebrew system wihtout classes",
-    "authors": "Megan and Zach",
     "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Megan and Zach"
+        }
+    ],
     "compatability": {
         "minimum": 13,
          "verified": 13.351,
@@ -12,12 +16,8 @@
     "esmodules": [
         "forge.js"
     ], 
-    "styles": [
-        "forge.css"
-    ],
-    "packs": [
-
-    ],
+    "styles": ["forge.css"],
+    "packs": [    ],
     "languages": [
         {
             "lang": "en",

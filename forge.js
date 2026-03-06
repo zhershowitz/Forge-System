@@ -1,6 +1,6 @@
-import {FORGE} from "./modules/config.js";
+import { FORGE } from "./modules/config.js";
 
-Hooks.once("init", async () =>{
+Hooks.once("init", async () => {
 
     console.log("FORGE | Initializing Forge System");
 
