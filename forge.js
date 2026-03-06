@@ -1,4 +1,4 @@
-import {FORGE} from "./modules/forge.js";
+import {FORGE} from "./modules/config.js";
 
 Hooks.once("init", async () =>{
 
