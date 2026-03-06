@@ -9,22 +9,21 @@
         }
     ],
     "compatability": {
-        "minimum": 13,
+        "minimum": 13.351,
          "verified": 13.351,
-         "maximum": 13
+         "maximum": 13.351
     },
     "esmodules": [
         "forge.js"
     ], 
     "styles": ["forge.css"],
     "packs": [    ],
-    "languages": [
-        {
-        }
-    ],
+    "languages": [    ],
     "socket": false,
     "grid": {
         "distance": 5,
         "units": "ft"
-    }
+    },
+    "primaryTokenAttributes": "hp",
+    "secondaryTokenAttributes": "ac"
 }

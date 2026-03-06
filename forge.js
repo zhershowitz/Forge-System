@@ -1,6 +1,7 @@
 import { FORGE } from "./modules/config.js";
+import forgeItemSheet from "./modules/sheets/forgeItemSheet.js";
 
-Hooks.once("init", async () => {
+Hooks.once("init", function ()  {
 
     console.log("FORGE | Initializing Forge System");
 
@@ -9,8 +10,10 @@ Hooks.once("init", async () => {
     CONFIG.INIT = true;
 
     //Register custom Sheets and unregister the start Sheets
-    //Items.unregisterSheet("core", ItemSheet);
-    //Actors.unregisterSheet("core", ActorSheet);
+    Items.registerSheet("forge", forgeItemSheet);
+        Items.unregisterSheet("core", ItemSheet);
+    Actors.registerSheet("forge", forgeActorSheet);
+        Actors.unregisterSheet("core", ActorSheet);
 
     // Load all Partial-Handlebar Files
     preloadHandlebarsTemplates();
