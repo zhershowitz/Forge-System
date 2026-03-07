@@ -1,7 +1,7 @@
 import { FORGE } from "./modules/config.js";
 import forgeItemSheet from "./modules/sheets/forgeItemSheet.js";
 
-Hooks.once("init", function ()  {
+Hooks.once("init", async () =>{
 
     console.log("FORGE | Initializing Forge System");
 
