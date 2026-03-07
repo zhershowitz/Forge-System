@@ -1,4 +1,4 @@
-import forgeItemSheet from "./module/sheets/forgeItemSheet.js";
+import forgeItemSheet from "./modules/sheets/forgeItemSheet.js";
 
 Hooks.once("init", function () {
     console.log("forge | Initializing Forge System");
